@@ -35,3 +35,7 @@ prob_X = prod_defeito_X / prod_defeito_total
 print(prob_X)
 
 # A probabilidade de ser uma peça produzida pela máquina X é de 46.6%
+
+# Pelo teorema de Bayes:
+prob = (defeitos_X * porcao_X) / (defeitos_X * porcao_X + defeitos_Y * porcao_Y + defeitos_Z * porcao_Z)
+print(prob)
