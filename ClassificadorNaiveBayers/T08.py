@@ -19,8 +19,13 @@ P_Y1B0C0 = 1/4
 P_Y0B1C0 = 2/4
 P_Y1B1C0 = 2/4
 
+P_Y0B0C1 = 3/4
+P_Y1B0C1 = 1/4
+
 P_Y0B1C1 = 1
 P_Y1B1C1 = 0
 
-P_Y = P_A0 * P_B0A0 * P_C1A0
+P_Y = P_A0 * P_B0A0 * P_C1A0 * P_Y0B0C1
+print(P_Y)
+P_Y = P_A0 * P_B0A0 * P_C1A0 * P_Y1B0C1
 print(P_Y)
